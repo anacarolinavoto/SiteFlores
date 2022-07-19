@@ -13,7 +13,6 @@ if (isset ( $_POST['txtNome']) ) {
     $email = $_POST['txtEmail'];
     $telefone = $_POST['txtTelefone'];
     $mensagem = $_POST['txtMensagem'];
- echo $nome. "<br>". $email."<br>". $telefone."<br>". $mensagem;
 }
 ?>
 

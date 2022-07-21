@@ -5,7 +5,7 @@ include_once './includes/_dados.php';
 include_once './includes/_head.php';
 include_once './includes/_header.php';
 ?>
-<div class="m-5" id="contato" style="text-align: center; color: white">
+<div class="m-5" id="contato" style="text-align: center;">
 <?php
 if (isset ( $_POST['txtNome']) ) {
     $nome = strtoupper( $_POST['txtNome']);
@@ -13,10 +13,12 @@ if (isset ( $_POST['txtNome']) ) {
     $email = $_POST['txtEmail'];
     $telefone = $_POST['txtTelefone'];
     $mensagem = $_POST['txtMensagem'];
+    
+    echo "Muito obrigada $nome, agora estás cadatrado(a).";
 }
 ?>
 
-<h1 style="color: fuchsia; font-size: 65px; font-family: Brush Script MT, Brush Script Std, cursive; text-align: center;">Contato</h1>
+<h1>Contato</h1>
 <form action="./contato.php" method="post">
     <ul style=" list-style: none;">
         <li>

@@ -7,21 +7,21 @@ $id = $_GET['id'];
 $tipo = $_GET['tipo'];
 
 ?>
-<div class="d-flex justify-content-center" style="color: white; text-align: center; margin-top: 1cm; font-size: 20px">
+<div class="d-flex justify-content-center" id="pdetalhe">
 <div class="container">
 <h1><?php echo $produtos[$id]['nome'];?></h1>
-<img style='width: 400px; height: 350px; ' src='./content/<?php echo $produtos[$id]['imagem'];?>'>
+<img style='width: 400px; height: 350px;' src='./content/<?php echo $produtos[$id]['imagem'];?>'>
 
 <div class="m-4">
 <p><strong> Categoria: </strong><?php echo $produtos[$id]['categoria'];?></p>
 <p><strong> Preço: </strong><?php echo $produtos[$id]['preco'];?></->
 <p style="width: 20cm; margin-left: 150px;"><strong> Descrição: </strong><?php echo $produtos[$id]['descricao'];?></p>
 </div>
-<div class="mt-4"> 
-    <h1 style="font-size: 20px"><strong>Forma de Pagamento</strong></h1>
-    <p><img style="width: 30px" src="./content/pix.png"> Pix</p>
-    <p><img style="width: 30px" src="./content/cartao.png"> Cartão</p>
-    <p><img style="width: 30px" src="./content/dinheiro.png"> Dinheiro</p>
+<div class="mt-4" id="formapagamento"> 
+    <h1><strong>Forma de Pagamento</strong></h1>
+    <p><img src="./content/pix.png"> Pix</p>
+    <p><img src="./content/cartao.png"> Cartão</p>
+    <p><img src="./content/dinheiro.png"> Dinheiro</p>
 </div>
 
 </div>

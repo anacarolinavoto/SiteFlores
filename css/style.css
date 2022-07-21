@@ -28,19 +28,26 @@ footer{
 }
 #contato{
     margin-top: 15px;
+    color: white;
 }
-#contato h1{
+h1{
     color: fuchsia;
-    margin-top: 80px;
     font-family: Brush Script MT, Brush Script Std, cursive;
     font-size: 60px; 
+    text-align: center;
+}
+h2{
+    color: fuchsia;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 60px; 
+    text-align: center;
 }
 input, textarea {
     padding: 10px;
     margin: 8px;
     border: 1px solid #E5E5E5;
     width: 200px;
-    color: #fffafa;
+    color: black;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
@@ -57,4 +64,33 @@ line-height: 18px;
 }
 .btn:hover {
     background-color: mediumslateblue;
+}
+label{
+    color: white;
+}
+#txtMensagem{
+    padding: 50px;
+}
+.card{
+    width: 18rem; 
+    margin-right:1cm; 
+    margin-top: 1cm; 
+    margin-left:2cm;
+}
+#index{
+    text-align:center;
+    margin-top:0;
+}
+#pdetalhe{
+    color: white; 
+    text-align: center; 
+    margin-top: 1cm; 
+    font-size: 20px;
+}
+#formapagamento img{
+    width: 30px;
+}
+#formapagamento h1{
+    font-size: 20px;
+    color: white;
 }
